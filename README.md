@@ -7,7 +7,7 @@ NOTE: Folium maps are used extensively for visualization of stations, their repr
 This project examines trip duration prediction in bicycle sharing systems without using trajectory data. Work done in this project is two-fold:
 
 1. Usage of coarse-grained station representation for predictive modeling as opposed to traditionally employed fine-grained station-level representation
-2. Importance of destination (drop-off/check-in) station in trip duration prediction. Or conversely, how much information does source (pick-up/check-out) contribute in duration prediction?
+2. Importance of destination (drop-off/check-in) station in trip duration prediction. Conversely, how much information does source (pick-up/check-out) contribute in duration prediction?
 
 #### Coarse-Grained Representation for Stations - A Means of Problem Simplification:
 The average distance between a station and its nearest neighbor is ∼ 230 meters. Hence, the usage patterns and trends would be very similar for multiple stations. This calls for a possibility of problem simplification, where multiple nodes in a stations network could come under the same bucket. To this end, two kinds of problem simplification strategies are employed - Geographic clustering and Purpose-aware Categorization. 
